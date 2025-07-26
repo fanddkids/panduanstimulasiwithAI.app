@@ -409,6 +409,34 @@
         };
         const catatanPenting = { "0-3 Bulan": { title: "Catatan Penting untuk Usia 0-3 Bulan", content: "Setiap bayi berkembang dengan kecepatannya sendiri. Fokus utama pada usia ini adalah membangun ikatan (bonding) yang kuat, memberikan rasa aman dengan merespon kebutuhannya (responsive care), dan mengenalkan berbagai sensori sederhana. Jangan membandingkan bayi Anda dengan bayi lain." }, "3-6 Bulan": { title: "Catatan Penting untuk Usia 3-6 Bulan", content: "Di fase ini, bayi mulai lebih aktif berinteraksi. Sering-seringlah mengajaknya 'mengobrol' untuk menstimulasi kemampuan bahasanya. Pastikan lingkungan bermainnya aman karena ia akan mulai meraih benda di sekitarnya dan mencoba berguling." }, "6-9 Bulan": { title: "Catatan Penting untuk Usia 6-9 Bulan", content: "Masa pengenalan MPASI dimulai. Kenalkan berbagai tekstur makanan secara bertahap. Bayi juga akan mulai banyak bergerak, seperti duduk dan merangkak, jadi pastikan rumah aman dari benda-benda berbahaya (child-proofing)." }, "9-12 Bulan": { title: "Catatan Penting untuk Usia 9-12 Bulan", content: "Kemampuan sosialnya berkembang pesat. Ajak ia bermain 'cilukba' atau melambaikan tangan. Di akhir fase ini, banyak bayi mulai mencoba berdiri dan berjalan rambatan (merambat). Separation anxiety (cemas saat berpisah) mungkin muncul, ini adalah fase normal." }, "12-18 Bulan": { title: "Catatan Penting untuk Usia 12-18 Bulan", content: "Anak mulai menunjukkan kemandiriannya (misalnya, ingin makan sendiri). Beri ia kesempatan untuk bereksplorasi, namun tetap dalam pengawasan. Perbendaharaan katanya akan bertambah pesat jika sering diajak bicara dan dibacakan buku." }, "18-24 Bulan": { title: "Catatan Penting untuk Usia 18-24 Bulan", content: "Ini adalah fase 'toddler' yang penuh energi. Arahkan energinya ke permainan fisik yang aman seperti berlari atau menendang bola. Waspadai tantrum, yang merupakan cara anak mengekspresikan emosi besar. Hadapi dengan tenang dan konsisten." }, "24-36 Bulan (2-3 Tahun)": { title: "Catatan Penting untuk Usia 2-3 Tahun", content: "Imajinasi anak berkembang pesat. Ajak bermain peran (role play). Kemampuan bahasanya sudah lebih kompleks, ajak ia bercerita. Latih kemandirian seperti memakai baju atau mencuci tangan. Toilet training bisa mulai diperkenalkan." }, "36-48 Bulan (3-4 Tahun)": { title: "Catatan Penting untuk Usia 3-4 Tahun", content: "Anak mulai bisa mengikuti aturan permainan sederhana dan memahami konsep bergiliran. Ini waktu yang baik untuk mulai mengenalkan konsep berbagi dan antri saat bermain dengan teman sebayanya. Rasa ingin tahunya sangat besar, jawab pertanyaannya dengan sabar." }, "48-60 Bulan (4-5 Tahun)": { title: "Catatan Penting untuk Usia 4-5 Tahun", content: "Keterampilan motorik halusnya semakin terasah. Ajak ia menggambar, menggunting, atau menulis. Kemampuan berpikirnya lebih logis, Anda bisa mulai menjelaskan hubungan sebab-akibat sederhana. Anak mulai memiliki teman baik." }, "60-72 Bulan (5-6 Tahun)": { title: "Catatan Penting untuk Usia 5-6 Tahun", content: "Anak bersiap masuk ke jenjang sekolah. Latih kemandirian dan tanggung jawab kecil seperti membereskan mainan atau tempat tidurnya. Dukung minat dan bakatnya, serta terus bangun rasa percaya dirinya untuk menghadapi lingkungan baru." } };
         const checklistData = { 
+            "0-3 Bulan": {
+                "Tahap 1": {
+                    title: "Skrining Tahap 1 (Akhir Bulan ke-3)",
+                    items: [
+                        { category: "Motorik Kasar", text: "Saat tengkurap, mampu mengangkat kepala hingga 45 derajat." },
+                        { category: "Motorik Kasar", text: "Kepala tegak dan stabil saat digendong duduk." },
+                        { category: "Motorik Halus", text: "Memasukkan tangan ke mulut." },
+                        { category: "Motorik Halus", text: "Menggenggam mainan kerincingan saat diletakkan di tangannya." },
+                        { category: "Sosial & Kemandirian", text: "Membalas senyuman orang lain (senyum sosial)." },
+                        { category: "Sosial & Kemandirian", text: "Menjadi tenang saat mendengar suara atau dipeluk." },
+                        { category: "Bicara & Bahasa", text: "Mengeluarkan suara-suara vokal ('aah', 'ooh', 'uuh')." },
+                        { category: "Bicara & Bahasa", text: "Memberi reaksi (terkejut/diam) saat mendengar suara nyaring." }
+                    ]
+                },
+                "Tahap 2": {
+                    title: "Skrining Tahap 2 (Observasi Lanjutan)",
+                    items: [
+                        { category: "Motorik Kasar", text: "Tangan dan kaki bergerak aktif bersamaan." },
+                        { category: "Motorik Kasar", text: "Saat tengkurap, mencoba menekan tangan ke bawah." },
+                        { category: "Motorik Halus", text: "Mengamati dan bermain dengan jari-jemarinya sendiri." },
+                        { category: "Motorik Halus", text: "Mulai mencoba meraih mainan yang digantung di depannya." },
+                        { category: "Sosial & Kemandirian", text: "Menatap wajah orang yang berbicara padanya dengan saksama." },
+                        { category: "Sosial & Kemandirian", text: "Menunjukkan kegembiraan (misal: menggerakkan tubuh) saat diajak bermain." },
+                        { category: "Bicara & Bahasa", text: "Menoleh ke arah sumber suara yang familiar (misal: suara Ibu)." },
+                        { category: "Bicara & Bahasa", text: "Tersenyum saat mendengar suara Anda." }
+                    ]
+                }
+            },
             "3-6 Bulan": {
                 "Tahap 1": {
                     title: "Skrining Tahap 1 (Akhir Bulan ke-6)",
